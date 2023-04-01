@@ -1,3 +1,8 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
 .navbar{
   padding: 10px;
 }
@@ -33,16 +38,16 @@ p{
 .C2{
 padding-top: 50px;
 }
-.moto-cell{
+.C2 .moto-cell{
   overflow: hidden;
 align-items: center;
 }
-.moto-cell img{
+.C2 .moto-cell img{
   transition: transform 1s;
 }
-.moto-cell:hover img{
+.C2 .moto-cell:hover img{
 
-   transform: scale(1.2);
+   transform: scale(1.1);
 }
 .services_img {
   height: 80%;
@@ -52,8 +57,75 @@ align-items: center;
     text-align: center;
     color: white;
 }
-.C3 {
- display: flex;
- justify-content: center;
- align-items:center;
+.C3{
+  background-color:#4F4F4F;
+}
+.C3 .card{
+  border: 0px;
+  text-align:center;
+ margin: 20px;
+ border-radius: 50px;
+}
+.C3 img{
+  border-radius: 100%;
+  margin: 10px;
+}
+.C3 p{
+  color:rgba(0, 0, 0, 0.6);
+  text-align:center;
+  display: block;
+  margin: 0px;
+}
+
+.C3 h1{
+  text-align: center;
+  color: white;
+}
+.C3 i{
+  margin: 10px;
+}
+.C3 .fa-instagram{
+  color:#E57373;
+}
+.C3 .fa-instagram:hover{
+  color: #D50000;
+}
+.C3 .fa-youtube{
+  color:#FF1744;
+}
+.C3 .fa-youtube:hover{
+  color: #D50000;
+}
+.C3 .social-media{
+  align-items:center;
+}
+#footer{
+  text-align: center;
+  background-color:black;
+  color: white;
+  padding: 10px;
+}
+#footer .motocell{
+  text-align: center;
+}
+#footer h4{
+  padding: 10px;
+}
+#footer a{
+  margin:10px;
+  text-decoration: none;
+  color: #c5cae9;
+}
+#footer a:hover{
+  color:white;
+}
+#footer .usefull-links a:hover{
+  padding-left:10px;
+  color: white;
+}
+#footer .usefull-links a{
+  display: block;
+}
+#footer .social-media{
+  margin: 10px;
 }
